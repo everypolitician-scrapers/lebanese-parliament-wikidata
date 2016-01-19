@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/everypolitician/wikidata-fetcher.git
-  revision: 07ddf61fafc9e63e396174535a4539fdcb4c6030
+  revision: a13d8300f273816ac96819e0a58e1a25387a6aca
   specs:
-    wikidata-fetcher (0.8.1)
+    wikidata-fetcher (0.8.2)
       colorize
       diskcached
       json
@@ -98,7 +98,7 @@ DEPENDENCIES
   rest-client
   scraperwiki!
   sqlite_magic!
-  wikidata-fetcher (>= 0.8.1)!
+  wikidata-fetcher (>= 0.8.2)!
   wikisnakker!
 
 BUNDLED WITH
