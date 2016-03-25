@@ -14,4 +14,3 @@ ar_names = EveryPolitician::Wikidata.wikipedia_xpath(
 en_names = EveryPolitician::Wikidata.morph_wikinames(source: 'tmtmtmtm/lebanese-parliament-2009', column: 'wikiname')
 
 EveryPolitician::Wikidata.scrape_wikidata(names: { en: en_names, ar: ar_names }, output: false)
-warn EveryPolitician::Wikidata.notify_rebuilder
